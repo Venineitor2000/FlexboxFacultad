@@ -1,0 +1,202 @@
+
+/*
+PENDIENTE AVERIGUAR COMO LOGRAR EL CENTRADO PERFECTO DE "ANIMES EN EMISION", COMO PUEDO HACERLO CON EL POSITION ABSOLUTE, PERO USANDO FLEXBOX
+.Line {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: white;
+    margin-left: -1px;
+    z-index: 9999;
+  }
+
+  #Actual{
+    
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+}
+*/
+
+h1
+{
+    font-weight: bold;
+    text-decoration:underline;
+}
+ol{
+    list-style: decimal;
+    padding-LEFT: 15px;
+}
+body, html
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.HEADER{
+    
+    display: flex;
+        height: 100;
+        justify-content: flex-start;
+        align-items:center;
+        margin: 5px;
+        
+}
+
+
+.Items{
+    margin-right: 15px;
+    margin-left: 15px;
+    
+    
+}
+
+.Box
+{
+    
+    width: 100%;
+    height: 30PX;
+    background-color: blueviolet;
+    display: flex;
+    
+    justify-content: space-between;
+    
+    
+}
+
+.Box li{
+    Display: Flex;
+    align-items: center;
+    padding: 15px;
+    
+    
+}
+
+.Box a{
+    color: white;
+    
+    
+}
+
+
+
+#Actual a
+{
+    font-weight: bold;
+    color: rgb(0, 255, 60);
+    
+    
+    
+    
+}
+
+.contenido_general{
+    Display: Flex;
+    justify-content: center;
+    flex-grow: 1;
+    
+}
+
+.Animes{
+    
+    Display: Flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+.pie{
+    
+    Display: Flex;
+    justify-content: center;
+    margin-top: 5px;
+
+
+}
+
+
+
+
+#Titular
+{
+    margin: 5px;
+    
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+.Contenido_Anime
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido
+{
+    flex-basis: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.contenido h2
+{
+    padding-left: 10px;
+    align-self: self-start;
+}
+
+#Menu{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    nav{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-content: space-around;
+        align-items: flex-end;
+    }
+    .Box{
+        
+        display: none;
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: auto;
+        width: auto;
+    } 
+
+   #Menu{
+    display:block;
+    padding-right: 15px;
+    width: 30px;
+    height: 30px;
+   }
+
+   
+  }
+
+
